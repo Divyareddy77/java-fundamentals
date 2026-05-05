@@ -32,8 +32,9 @@ public class Customer {
         System.out.println("Phone number is "+phoneNumber);
         System.out.println("Address is "+address);
     }
-    String  updateCustomerAddress(String newAddress){
-        address=newAddress;
+    String  updateCustomerAddress(int id,String newAddress){
+        if(id==1)
+            address=newAddress;
         return address;
 
     }
