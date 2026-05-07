@@ -1,17 +1,17 @@
-/*
 package com.java.oop.abstraction;
 
 public class Customer {
     int id;
     String name;
-    String dateOfBirth;
-    String dateOfPlace;
+    String email;
+    long phoneNo;
+    long aadharNo;
 
-    public Customer(int id, String name, String dateOfBirth, String dateOfPlace) {
+    public Customer(int id, String name, String email, long phoneNo, long aadharNo) {
         this.id = id;
         this.name = name;
-        this.dateOfBirth = dateOfBirth;
-        this.dateOfPlace = dateOfPlace;
+        this.email = email;
+        this.phoneNo = phoneNo;
+        this.aadharNo = aadharNo;
     }
 }
-*/
