@@ -17,7 +17,7 @@ public class Laptop extends Product{
         this.operatingSystem = operatingSystem;
     }
     @Override
-    void displayDetails(){
+    public void displayDetails(){
         super.displayDetails();
         System.out.println("hard disk size : "+harddiskSize);
         System.out.println("ram : "+ram);

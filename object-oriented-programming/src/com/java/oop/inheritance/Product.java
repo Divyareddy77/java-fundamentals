@@ -20,7 +20,7 @@ public class Product {
         this.rating = rating;
         this.isAvailable = isAvailable;
     }
-    void displayDetails(){
+    public void displayDetails(){
         System.out.println("id :"+id);
         System.out.println("name :"+name);
         System.out.println("MRP :"+maxRetailPrice);
